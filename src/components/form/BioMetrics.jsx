@@ -1,20 +1,3 @@
-// import React from "react";
-
-// export default React.memo(({ state, dispatch }) => (
-//   <>
-//     <input placeholder="Name" value={state.name}
-//       onChange={e => dispatch({ section: "bio", payload: { name: e.target.value } })} />
-//     <input placeholder="Age" value={state.age}
-//       onChange={e => dispatch({ section: "bio", payload: { age: e.target.value } })} />
-//     <input placeholder="Height (cm)" value={state.height}
-//       onChange={e => dispatch({ section: "bio", payload: { height: e.target.value } })} />
-//     <input placeholder="Weight (kg)" value={state.weight}
-//       onChange={e => dispatch({ section: "bio", payload: { weight: e.target.value } })} />
-//   </>
-// ));
-
-
-
 import React from "react";
 
 export default React.memo(({ state, dispatch }) => {

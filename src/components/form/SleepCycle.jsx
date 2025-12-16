@@ -1,21 +1,3 @@
-// import React from "react";
-
-// export default React.memo(({ state, dispatch }) => (
-//   <>
-//     <input type="time" value={state.sleepTime}
-//       onChange={e =>
-//         dispatch({ section: "sleep", payload: { sleepTime: e.target.value } })
-//       } />
-//     <input type="time" value={state.wakeTime}
-//       onChange={e =>
-//         dispatch({ section: "sleep", payload: { wakeTime: e.target.value } })
-//       } />
-//   </>
-// ));
-
-
-
-
 import React from "react";
 
 export default React.memo(({ state, dispatch }) => {

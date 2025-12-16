@@ -1,36 +1,3 @@
-// import React from "react";
-
-// export default React.memo(({ label, mealKey, meals, dispatch }) => (
-//   <>
-//     <h4>{label}</h4>
-//     <input placeholder="Food"
-//       value={meals[mealKey].food}
-//       onChange={e =>
-//         dispatch({
-//           section: "meals",
-//           payload: {
-//             ...meals,
-//             [mealKey]: { ...meals[mealKey], food: e.target.value }
-//           }
-//         })
-//       } />
-//     <input type="time"
-//       value={meals[mealKey].time}
-//       onChange={e =>
-//         dispatch({
-//           section: "meals",
-//           payload: {
-//             ...meals,
-//             [mealKey]: { ...meals[mealKey], time: e.target.value }
-//           }
-//         })
-//       } />
-//   </>
-// ));
-
-
-
-
 import React from "react";
 
 export default React.memo(({ label, mealKey, meals, dispatch }) => {

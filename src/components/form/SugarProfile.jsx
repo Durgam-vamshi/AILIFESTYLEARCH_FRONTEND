@@ -1,30 +1,3 @@
-// import React from "react";
-
-// export default React.memo(({ state, dispatch }) => (
-//   <>
-//     <label>
-//       <input type="checkbox" checked={state.consumesSugar}
-//         onChange={e =>
-//           dispatch({ section: "sugarProfile", payload: { consumesSugar: e.target.checked } })
-//         } />
-//       Consumes Sugar
-//     </label>
-
-//     <select value={state.frequency}
-//       onChange={e =>
-//         dispatch({ section: "sugarProfile", payload: { frequency: e.target.value } })
-//       }>
-//       <option value="">Frequency</option>
-//       <option>Daily</option>
-//       <option>Weekly</option>
-//       <option>Rarely</option>
-//     </select>
-//   </>
-// ));
-
-
-
-
 import React from "react";
 
 export default React.memo(({ state, dispatch }) => {

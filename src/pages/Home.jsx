@@ -1,25 +1,3 @@
-// import { useState } from "react";
-// import IntakeForm from "../components/form/IntakeForm";
-// import AIDashboard from "../components/dashboard/AIDashboard";
-
-// export default function Home() {
-//   const [analysisResult, setAnalysisResult] = useState(null);
-
-//   return (
-//     <div style={{ maxWidth: "700px", margin: "auto", padding: "20px" }}>
-//       <h1>🧠 AI Lifestyle Architect</h1>
-//       <p>Complete your daily routine to receive a personalized lifestyle transition plan.</p>
-
-//       <IntakeForm onResult={setAnalysisResult} />
-
-//       <AIDashboard data={analysisResult} />
-//     </div>
-//   );
-// }
-
-
-
-
 import { useState } from "react";
 import IntakeForm from "../components/form/IntakeForm";
 import AIDashboard from "../components/dashboard/AIDashboard";

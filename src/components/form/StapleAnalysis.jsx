@@ -1,25 +1,3 @@
-// import React from "react";
-
-// export default React.memo(({ state, dispatch }) => (
-//   <>
-//     <input placeholder="Primary Staple"
-//       value={state.primary}
-//       onChange={e =>
-//         dispatch({ section: "staple", payload: { primary: e.target.value } })
-//       } />
-
-//     <label>
-//       <input type="checkbox" checked={state.heavyRiceEater}
-//         onChange={e =>
-//           dispatch({ section: "staple", payload: { heavyRiceEater: e.target.checked } })
-//         } />
-//       Heavy Rice Eater
-//     </label>
-//   </>
-// ));
-
-
-
 import React from "react";
 
 export default React.memo(({ state, dispatch }) => {

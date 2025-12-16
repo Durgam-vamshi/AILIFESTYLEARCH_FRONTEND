@@ -1,35 +1,3 @@
-// import React from "react";
-
-// export default function RoutineTimeline({ routine }) {
-//   if (!routine || routine.length === 0) return null;
-
-//   return (
-//     <div>
-//       <h3>🕒 Suggested Daily Routine</h3>
-
-//       <ul style={{ listStyle: "none", padding: 0 }}>
-//         {routine.map((item, index) => (
-//           <li
-//             key={index}
-//             style={{
-//               marginBottom: "12px",
-//               padding: "10px",
-//               borderLeft: "4px solid #4caf50",
-//               background: "#f9f9f9"
-//             }}
-//           >
-//             <strong>{item.time}</strong> — {item.activity}
-//             <p style={{ fontSize: "0.85rem", color: "#555" }}>
-//               {item.reason}
-//             </p>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
-
-
 
 import React from "react";
 
